@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_500">#006600</color>
+    <color name="green_400">#008000</color>
+    <color name="green_300">#9cb4d4</color>
+    <color name="green_200">#4f7670</color>
+    <color name="green_100">#659f7c</color>
+    <color name="green_50">#92bea9</color>
+    <color name="green_30">#c5deda</color>
+    <color name="white_1">#eee6c4</color>
+    <color name="white_2">#f7edda</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textbut">#133014</color>
+</resources>

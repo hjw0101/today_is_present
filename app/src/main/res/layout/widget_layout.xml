@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sb"
+        android:text="오늘의 단어"
+        android:textColor="@color/textbut"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationX="-150dp"
+        android:translationY="-20dp" />
+
+
+    <TextView
+        android:id="@+id/wordTextView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/sh"
+        android:singleLine="true"
+        android:text="Word"
+        android:textColor="@color/textbut"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="10dp" />
+
+    <TextView
+        android:id="@+id/posTextView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sm"
+        android:text="Part of Speech"
+        android:textColor="@color/green_300"
+        android:textSize="16sp"
+        android:translationX="10dp" />
+
+    <TextView
+        android:id="@+id/meaningTextView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/sr"
+        android:text="Meaning"
+        android:textColor="@color/green_200"
+        android:textSize="18sp"
+        android:translationX="10dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="다음 단어"
+        android:textColor="@color/white_2" />
+
+</LinearLayout>
+

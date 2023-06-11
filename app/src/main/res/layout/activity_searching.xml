@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="659dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="96dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/hide_bottom_view_on_scroll_behavior"
+                app:srcCompat="@drawable/baseline_arrow" />
+
+            <TextView
+                android:id="@+id/search_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/sh"
+                android:gravity="center"
+                android:text="검색"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/search_back"
+                android:layout_width="96dp"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/hide_bottom_view_on_scroll_behavior"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botder_layout"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:translationY="20dp">
+
+            <EditText
+                android:id="@+id/search_search"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="검색어를 입력하세요" />
+
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/check"
+                android:translationY="2dp"
+                app:srcCompat="@drawable/baseline_search_black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:orientation="vertical"
+            android:translationY="20dp">
+
+            <TextView
+                android:id="@+id/word"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:fontFamily="@font/sh"
+                android:layout_gravity="center"
+                android:textSize="50sp"
+                android:translationY="30dp" />
+
+            <TextView
+                android:id="@+id/pos"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/sm"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:translationY="30dp" />
+
+            <TextView
+                android:id="@+id/definition"
+                android:layout_width="300dp"
+                android:layout_height="93dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sl"
+                android:textSize="30sp"
+                android:translationY="30dp" />
+
+            <TextView
+                android:id="@+id/exam_"
+                android:layout_width="300dp"
+                android:layout_height="93dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sl"
+                android:textSize="30sp"
+                android:translationY="30dp" />
+
+            <TextView
+                android:id="@+id/sd"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/sm"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:translationY="30dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/unbook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/check"
+            android:translationY="30dp"
+            app:srcCompat="@drawable/baseline_bookmark_border" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

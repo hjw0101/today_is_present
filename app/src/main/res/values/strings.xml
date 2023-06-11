@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">금일은 오늘</string>
+    <string name="accessibility_service_description">Your accessibility service description goes here</string>
+    <string name="server_client_id">494712609330-kditac9he5esnpe1j1drml30nkv6atcg.apps.googleusercontent.com</string>
+    <string name="input">텍스트를 입력하세요</string>
+    <string name="spellok">수정 문장</string>
+    <string name="check">맞춤법 검사</string>
+    <string name="delect">지우기</string>
+</resources>
